@@ -12,7 +12,7 @@ export default function About() {
             <Heading className="md:text-center">Selamat Datang Ngemilers<span className='text-redc'>'</span></Heading>
             <p className='mt-10 text-blackc dark:text-whitec md:text-center md:w-4/6 lg:w-4/12 mx-auto'><span className='text-redc font-medium'>Ngemil’</span> dihadirkan khusus untuk membantu pelaku diet agar dapat merasakan enaknya ngemil! tanpa merusak program diet</p>
 
-            <div className='grid grid-cols-3 mt-14 md:w-4/6 lg:1/3 mx-auto'>
+            <div className='grid grid-cols-3 mt-14 md:w-4/6 lg:w-1/2 mx-auto'>
                 <div className='mx-auto'>
                     <img className='h-12 lg:h-14 mx-auto' src={Kue}/>
                     <p className='text-center text-bluec dark:text-whitec font-medium mt-2'>Kue</p>

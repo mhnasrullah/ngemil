@@ -14,7 +14,7 @@ export default function Header(props) {
         </div>
         <div className='mt-20 relative w-full py-10'>
           <div>
-            <img src={props.dark ? Bintiklight : Bintikdark} className="w-full opacity-20 dark:opacity-5 h-20 object-cover object-center lg:h-32 dark:fill-white"/>
+            <img src={props.dark ? Bintiklight : Bintikdark} className="w-full opacity-20 dark:opacity-5 h-20 object-cover object-center lg:h-32"/>
             <img src={Bghead} className="w-full h-96 md:h-80 "/>
             <img src={props.dark ? Bintiklight : Bintikdark} className="w-full opacity-20 dark:opacity-5 h-20 object-cover object-center lg:h-32"/>
           </div>

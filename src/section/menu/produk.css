@@ -1,0 +1,14 @@
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,8px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));
+    display: inline-block;
+    border-radius: 50%;
+    background: #293453;
+    opacity: 50%;
+}
+.swiper-pagination-bullet-active {
+    width: 20px;
+    border-radius: 5px;
+    opacity: 100%;
+    background: #F95C4F;
+}

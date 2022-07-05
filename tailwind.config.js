@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  important: true,
   darkMode: 'class',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}"
@@ -15,6 +16,19 @@ module.exports = {
       }
     },
     extend: {
+      keyframes:{
+        bouncing: {
+          '0%,100%' : {
+            transform: 'translateY(0)',
+            AnimationEffect: 'cubic-bezier(0, 0, 0.2, 1)'},
+          '50%' : {
+            transform: 'translateY(-25%)',
+            AnimationEffect: 'cubic-bezier(0.8, 0, 1, 1)'}
+        }
+      },
+      animation:{
+        custom : "bouncing 2s infinite"
+      },
       colors:{
         bluec : "#293453",
         redc : "#F95C4F",
@@ -25,6 +39,9 @@ module.exports = {
         'head' : [
           '4px 4px 15px rgba(0, 0, 0, 0.25)',
           '-4px -4px 15px rgba(0, 0, 0, 0.25)',
+        ],
+        'allc' : [
+          '0px 4px 15px rgba(0, 0, 0, 0.10)',
         ]
       }
     },

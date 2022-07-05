@@ -38,7 +38,9 @@ function App() {
     scroll={offset}/>
     
     <About/>
-    <Menu/>
+
+    <Menu
+    dark={dark}/>
     </>
   );
 }
