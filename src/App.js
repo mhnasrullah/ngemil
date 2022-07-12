@@ -1,8 +1,11 @@
 import React,{useState,useEffect} from "react";
 import About from "./section/about/About";
+import Apc from "./section/apc/Apc";
+import Footer from "./section/footer/Footer";
 import Header from "./section/header/Header";
 import Menu from "./section/menu/Menu";
 import Nav from "./section/nav/Nav";
+import Testi from "./section/testi/Testi";
 
 function App() {
   const [dark,setDark] = useState(false);
@@ -41,6 +44,14 @@ function App() {
 
     <Menu
     dark={dark}/>
+
+    <Testi/>
+
+    <Apc
+    dark={dark}/>
+
+    <Footer/>
+
     </>
   );
 }

@@ -24,10 +24,19 @@ module.exports = {
           '50%' : {
             transform: 'translateY(-25%)',
             AnimationEffect: 'cubic-bezier(0.8, 0, 1, 1)'}
+        },
+        right:{
+          '0%' : {
+            transform: 'translateX(-10px)',
+          },
+          '100%' : {
+            transform: 'translateX(10px)',
+          }
         }
       },
       animation:{
-        custom : "bouncing 2s infinite"
+        custom : "bouncing 2s infinite",
+        slideright : "right 2s infinite"
       },
       colors:{
         bluec : "#293453",
@@ -43,6 +52,9 @@ module.exports = {
         'allc' : [
           '0px 4px 15px rgba(0, 0, 0, 0.10)',
         ]
+      },
+      spacing:{
+        '500' : '567px'
       }
     },
   },

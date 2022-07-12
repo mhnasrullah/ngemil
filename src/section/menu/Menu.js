@@ -25,6 +25,7 @@ import Kupel from '../../asset/menu/Kupel.png'
 import Kujelku from '../../asset/menu/Kujelku.png'
 import Kusanmer from '../../asset/menu/Kusanmer.png'
 import Kukoco from '../../asset/menu/Kukoco.png'
+import Subheading from '../../component/Subheading';
 
 function biskuit(){
     return (
@@ -157,10 +158,10 @@ export default function Menu(props) {
             }}></div>
             <img src={props.dark ? Bintiklight : Bintikdark} className="w-full opacity-20 dark:opacity-5 h-20 object-cover object-center lg:h-32"/>
         </div>
-        <div className='container -mt-44 relative'>
-            <div className='bg-whitec dark:bg-blackc black:text-white px-5 py-8 md:w-9/12 lg:w-8/12 lg:py-10 mx-auto text-center rounded-lg drop-shadow-allc mb-15'>
+        <div className='container -mt-44 relative mx-auto'>
+            <div className='bg-whitec dark:bg-blackc black:text-white px-5 py-8 md:w-9/12 lg:w-8/12 lg:py-10 mx-auto text-center rounded-lg shadow-md mb-15'>
                 <Heading>Menu Ngemil<span className='text-redc'>!</span> Terbaik</Heading>
-                <p className='text-center opacity-80 mt-3 text-blackc md:w-7/12 lg:w-5/12 mx-auto dark:text-whitec'>Rasakan camilan enak dan bergizi tinggi tanpa ganggu diet harianmu</p>
+                <Subheading className="mx-auto text-center ">Rasakan camilan enak dan bergizi tinggi tanpa ganggu diet harianmu</Subheading>
             </div>
             <div className='w-10/12 md:w-6/12 lg:w-4/12 mx-auto mt-11 text-center mb-8 text-xl font-medium text-bluec dark:text-whitec'>
                 <button className={produk == "kue" ? activeProduk : nonactiveProduk} onClick={()=>{setProduk("kue")}}>Kue</button>

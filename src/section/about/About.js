@@ -8,7 +8,7 @@ import Roti from "../../asset/icon/Roti.svg"
 export default function About() {
   return (
     <section id='about' className='dark:bg-blackc py-36'>
-        <div className='container'>
+        <div className='container mx-auto'>
             <Heading className="md:text-center">Selamat Datang Ngemilers<span className='text-redc'>'</span></Heading>
             <p className='mt-10 text-blackc dark:text-whitec md:text-center md:w-4/6 lg:w-4/12 mx-auto'><span className='text-redc font-medium'>Ngemil’</span> dihadirkan khusus untuk membantu pelaku diet agar dapat merasakan enaknya ngemil! tanpa merusak program diet</p>
 
